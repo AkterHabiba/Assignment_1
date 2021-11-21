@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#F0F8FF"
+    android:background="#F5F5F5"
     android:padding="20dp">
 
 <LinearLayout
@@ -93,18 +93,28 @@
             android:hint ="Your Email"
             android:background="@drawable/testname"
             android:padding="15dp" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:layout_weight="1"
-            android:hint="Password"
+            android:hint="Password                                                   ⦿"
             android:background="@drawable/testname"
             android:layout_marginVertical="5dp"
             android:padding="15dp"/>
-        <Button
+
+
+
+        </LinearLayout>
+            <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -114,10 +124,8 @@
             android:background="@drawable/teststyle"
 
             android:layout_marginVertical="30dp" />
-    </LinearLayout>
 
-
-    <TextView
+            <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -126,6 +134,7 @@
         android:layout_marginRight="20dp"
         android:text="By signing up , you agreed with our Terms of Servives and PrivacyPolicy"
       android:padding="5dp"  />
+
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
